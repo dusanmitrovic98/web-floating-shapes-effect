@@ -46,3 +46,4 @@
         this.y += this.speedY;
 
         if (this.x < -this.size || this.x > canvas.width + this.size || this.y < -this.size || this.y > canvas.height + this.size) {
+          this.reset();
